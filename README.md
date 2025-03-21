@@ -1,6 +1,6 @@
 # Real-Time Chat App
 
-This is a real-time chat application built with **React (Vite), Zustand, WebSockets (Socket.IO), and MongoDB**. It supports authentication, multiple chat rooms, message history, and real-time messaging.I built this to test my backend(node) knowledge, This is my first fullstack app
+This is a real-time chat application built with **React, Zustand, WebSockets (Socket.IO), and MongoDB**. It supports authentication, multiple chat rooms, message history, and real-time messaging.I built this to test my backend(node) knowledge, This is my first fullstack app. 
 
 ## Features
 
@@ -18,7 +18,6 @@ This is a real-time chat application built with **React (Vite), Zustand, WebSock
 - React with TypeScript
 - Zustand (State Management)
 - Tailwind CSS (Styling)
-- Lucide Icons (Icons)
 - Socket.IO Client (WebSockets for real-time chat)
 
 ### **Backend (Node.js + Express)**
@@ -27,7 +26,7 @@ This is a real-time chat application built with **React (Vite), Zustand, WebSock
 - Socket.IO (Real-time communication)
 - JSON Web Tokens (JWT) for authentication
 - bcryptjs (Password hashing)
-- Thunder Client (For API testing during development)
+- POST MAN (For API testing during development)
 
 ---
 
