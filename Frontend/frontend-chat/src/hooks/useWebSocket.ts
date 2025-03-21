@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 import { io, Socket } from "socket.io-client"
 
-const SOCKET_URL = "http://localhost:3500"
+const SOCKET_URL = "https://chat-app-wrln.onrender.com";
+
 
 export const useWebSocket = (token:string | null) => {
     const [socket, setSocket] = useState<Socket | null>(null)
