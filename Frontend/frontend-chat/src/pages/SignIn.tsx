@@ -3,7 +3,7 @@ import { Eye, EyeOff } from "lucide-react"
 import { useNavigate } from "react-router-dom"
 import { useAuthStore } from "../store/auth"
 
-const API_URL = "http://localhost:3500/api/auth/"
+const API_URL = "https://chat-app-wrln.onrender.com/api/auth/"
 
 const SignIn = () => {
   const [isSignUp, setIsSignUp] = useState(false)
